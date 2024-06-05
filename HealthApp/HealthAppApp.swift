@@ -1,17 +1,12 @@
-//
-//  HealthAppApp.swift
-//  HealthApp
-//
-//  Created by Aniket Patil on 04/06/24.
-//
-
 import SwiftUI
 
 @main
 struct HealthAppApp: App {
+    @StateObject var manager = HealthManager()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ActivityTabView()
+                .environmentObject(manager)
         }
     }
 }

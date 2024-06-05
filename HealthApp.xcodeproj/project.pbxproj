@@ -8,17 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		1FEF8FD32C0EEFAB0010D87A /* HealthAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF8FD22C0EEFAB0010D87A /* HealthAppApp.swift */; };
-		1FEF8FD52C0EEFAB0010D87A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF8FD42C0EEFAB0010D87A /* ContentView.swift */; };
 		1FEF8FD72C0EEFB00010D87A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEF8FD62C0EEFB00010D87A /* Assets.xcassets */; };
 		1FEF8FDA2C0EEFB00010D87A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEF8FD92C0EEFB00010D87A /* Preview Assets.xcassets */; };
+		1FEF8FE32C0EF3840010D87A /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEF8FE22C0EF3840010D87A /* HealthKit.framework */; };
+		1FEF8FED2C0F13870010D87A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF8FEC2C0F13870010D87A /* HomeView.swift */; };
+		1FEF8FF02C0F14760010D87A /* ActivityTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF8FEF2C0F14760010D87A /* ActivityTabView.swift */; };
+		1FEF8FF22C0F15CE0010D87A /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF8FF12C0F15CE0010D87A /* UserInfoView.swift */; };
+		1FEF8FF52C0F167C0010D87A /* ActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF8FF42C0F167C0010D87A /* ActivityCardView.swift */; };
+		1FEF8FF72C0F1E740010D87A /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF8FF62C0F1E740010D87A /* HealthManager.swift */; };
+		1FEF8FF92C0F236F0010D87A /* ActiVityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF8FF82C0F236F0010D87A /* ActiVityModel.swift */; };
+		1FEF8FFB2C0F26260010D87A /* extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF8FFA2C0F26260010D87A /* extension+Date.swift */; };
+		1FEF8FFD2C0F2CBC0010D87A /* extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF8FFC2C0F2CBC0010D87A /* extension+Double.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1FEF8FCF2C0EEFAB0010D87A /* HealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FEF8FD22C0EEFAB0010D87A /* HealthAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAppApp.swift; sourceTree = "<group>"; };
-		1FEF8FD42C0EEFAB0010D87A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FEF8FD62C0EEFB00010D87A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FEF8FD92C0EEFB00010D87A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FEF8FE02C0EF3840010D87A /* HealthApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthApp.entitlements; sourceTree = "<group>"; };
+		1FEF8FE22C0EF3840010D87A /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		1FEF8FEC2C0F13870010D87A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1FEF8FEF2C0F14760010D87A /* ActivityTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTabView.swift; sourceTree = "<group>"; };
+		1FEF8FF12C0F15CE0010D87A /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		1FEF8FF42C0F167C0010D87A /* ActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCardView.swift; sourceTree = "<group>"; };
+		1FEF8FF62C0F1E740010D87A /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		1FEF8FF82C0F236F0010D87A /* ActiVityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiVityModel.swift; sourceTree = "<group>"; };
+		1FEF8FFA2C0F26260010D87A /* extension+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Date.swift"; sourceTree = "<group>"; };
+		1FEF8FFC2C0F2CBC0010D87A /* extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Double.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FEF8FE32C0EF3840010D87A /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +55,7 @@
 			children = (
 				1FEF8FD12C0EEFAB0010D87A /* HealthApp */,
 				1FEF8FD02C0EEFAB0010D87A /* Products */,
+				1FEF8FE12C0EF3840010D87A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +70,13 @@
 		1FEF8FD12C0EEFAB0010D87A /* HealthApp */ = {
 			isa = PBXGroup;
 			children = (
+				1FEF8FE02C0EF3840010D87A /* HealthApp.entitlements */,
 				1FEF8FD22C0EEFAB0010D87A /* HealthAppApp.swift */,
-				1FEF8FD42C0EEFAB0010D87A /* ContentView.swift */,
-				1FEF8FD62C0EEFB00010D87A /* Assets.xcassets */,
+				1FEF8FE72C0F01A90010D87A /* Views */,
+				1FEF8FE62C0F01A10010D87A /* ViewModels */,
+				1FEF8FE52C0F01980010D87A /* Models */,
+				1FEF8FEA2C0F01F00010D87A /* Extensions */,
+				1FEF8FE82C0F01C90010D87A /* Assests */,
 				1FEF8FD82C0EEFB00010D87A /* Preview Content */,
 			);
 			path = HealthApp;
@@ -65,6 +88,82 @@
 				1FEF8FD92C0EEFB00010D87A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FEF8FE12C0EF3840010D87A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF8FE22C0EF3840010D87A /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FEF8FE52C0F01980010D87A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF8FF82C0F236F0010D87A /* ActiVityModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1FEF8FE62C0F01A10010D87A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF8FF62C0F1E740010D87A /* HealthManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1FEF8FE72C0F01A90010D87A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF8FF32C0F16150010D87A /* UserInfoView */,
+				1FEF8FEE2C0F13940010D87A /* HomeView */,
+				1FEF8FEB2C0F13710010D87A /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FEF8FE82C0F01C90010D87A /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF8FD62C0EEFB00010D87A /* Assets.xcassets */,
+			);
+			path = Assests;
+			sourceTree = "<group>";
+		};
+		1FEF8FEA2C0F01F00010D87A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF8FFA2C0F26260010D87A /* extension+Date.swift */,
+				1FEF8FFC2C0F2CBC0010D87A /* extension+Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1FEF8FEB2C0F13710010D87A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF8FEF2C0F14760010D87A /* ActivityTabView.swift */,
+				1FEF8FF42C0F167C0010D87A /* ActivityCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1FEF8FEE2C0F13940010D87A /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF8FEC2C0F13870010D87A /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		1FEF8FF32C0F16150010D87A /* UserInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF8FF12C0F15CE0010D87A /* UserInfoView.swift */,
+			);
+			path = UserInfoView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FEF8FD52C0EEFAB0010D87A /* ContentView.swift in Sources */,
 				1FEF8FD32C0EEFAB0010D87A /* HealthAppApp.swift in Sources */,
+				1FEF8FF72C0F1E740010D87A /* HealthManager.swift in Sources */,
+				1FEF8FED2C0F13870010D87A /* HomeView.swift in Sources */,
+				1FEF8FF92C0F236F0010D87A /* ActiVityModel.swift in Sources */,
+				1FEF8FF02C0F14760010D87A /* ActivityTabView.swift in Sources */,
+				1FEF8FFB2C0F26260010D87A /* extension+Date.swift in Sources */,
+				1FEF8FFD2C0F2CBC0010D87A /* extension+Double.swift in Sources */,
+				1FEF8FF22C0F15CE0010D87A /* UserInfoView.swift in Sources */,
+				1FEF8FF52C0F167C0010D87A /* ActivityCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,27 +372,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthApp/HealthApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HealthApp/Preview Content\"";
+				DEVELOPMENT_TEAM = JQ3TBQV3X3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow Health app ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Reapmind.HealthApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andconnection.live;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,27 +405,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthApp/HealthApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HealthApp/Preview Content\"";
+				DEVELOPMENT_TEAM = JQ3TBQV3X3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow Health app ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Reapmind.HealthApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andconnection.live;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
